@@ -1,0 +1,31 @@
+.text-muted1 {
+    color: #777;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+#image {
+    border-radius: 25px;
+}
+
+/* */
+#resume {
+    text-align: center;
+    
+}
+object {
+    height: 770px;
+    width: 700px;
+}
+
+@media(min-width:200px) {
+    object {
+        min-height: 350px;
+    }
+/* */
+.team-member img{
+    width: 260px;
+    height: 260px;
+}
