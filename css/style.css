@@ -689,6 +689,17 @@ section h3.section-subheading {
     }
 }
 
+/* */
+#demo p, h6 {
+    padding-top: 30px;
+    text-align: justify;
+}
+#demo1 p, h6 {
+    padding-top: 30px;
+    text-align: justify;
+}
+/* */
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -783,6 +794,8 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+
+/*
 footer {
     padding: 25px 0;
     text-align: center;
@@ -834,7 +847,12 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
+*/
 
+/* Modal - Changes */
+#skills-info p {
+    text-align: justify;
+}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -996,7 +1014,7 @@ footer .footer-below {
   color: white;
   font-size: 20px;
   border: solid 2px white;
-  background: transparent;
+  /*background: transparent;*/
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -1005,7 +1023,7 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: #5D92B1;
-  background: white;
+  /*background: white;*/
   border: solid 2px white;
 }
 .btn-social {
@@ -1022,4 +1040,8 @@ footer .footer-below {
 .btn:active,
 .btn.active {
   outline: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
