@@ -483,7 +483,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="send.php"  method="POST" name="sentMessage" id="contactForm" novalidate="">
+                    <form action="contact.php"  method="POST" name="sentMessage" id="contactForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -501,14 +501,14 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" name="msg" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Message *" name="message" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" name="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" name="send" class="btn btn-xl">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -565,40 +565,6 @@
             </div>
         </div>
     </footer>
-
-
-
-    <handlers accessPolicy="Read, Script">
-   <add name="WebDAV"
-      path="*"
-      verb="PROPFIND,PROPPATCH,MKCOL,PUT,COPY,DELETE,MOVE,LOCK,UNLOCK"
-      modules="WebDAVModule"
-      resourceType="Unspecified"
-      requireAccess="None" />
-   <add name="ISAPI-dll"
-      path="*.dll"
-      verb="*"
-      modules="IsapiModule"
-      resourceType="File"
-      requireAccess="Execute"
-      allowPathInfo="true" />
-   <add name="ExtensionlessUrlHandler-ISAPI-4.0_64bit"
-      path="*."
-      verb="GET,HEAD,POST,DEBUG"
-      modules="IsapiModule"
-      scriptProcessor="%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll"
-      preCondition="classicMode,runtimeVersionv4.0,bitness64"
-      responseBufferLimit="0" />
-
-   <!-- Additional handlers will be defined here. -->
-
-   <add name="StaticFile"
-      path="*"
-      verb="*"
-      modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule"
-      resourceType="Either"
-      requireAccess="Read" />
-</handlers>
 
 
 
