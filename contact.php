@@ -1,7 +1,7 @@
 <?php
 require 'PHPMailerAutoload.php'; //this is original file.
 
-if(isset($_POST['send']))
+if(isset($_GET['send']))
 {
 // Fetching data that is entered by the user
 $email = "jaypatel.web.co@gmail.com";
@@ -9,10 +9,10 @@ $password = "kishan999";
 
 $to_id = "jaypatel.web.co@gmail.com";
 
-$name = $_POST['name'];
-$useremail = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+$name = $_GET['name'];
+$useremail = $_GET['email'];
+$phone = $_GET['phone'];
+$message = $_GET['message'];
 $subject = "Portfolio Message";
 $body = "Name : ".$name."EmailID: ".$useremail."Phone Number: ".$phone."Message: ".$message;
 //echo '<p id="para">'.$body.'</p>';
