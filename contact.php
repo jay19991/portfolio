@@ -11,7 +11,7 @@ $to_id = "jaypatel.web.co@gmail.com";
 
 $name = $_POST['name'];
 $useremail = $_POST['email'];
-$phone = $_GET['phone'];
+$phone = $_POST['phone'];
 $message = $_POST['message'];
 $subject = "Portfolio Message";
 $body = "Name : ".$name."EmailID: ".$useremail."Phone Number: ".$phone."Message: ".$message;
