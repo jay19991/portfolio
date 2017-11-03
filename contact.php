@@ -14,7 +14,7 @@ $useremail = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 $subject = "Portfolio Message";
-$body = "Name : ".$name."EmailID: ".$useremail."Phone Number: ".$phone."Message: ".$message;
+$body = "Name : ".$name. "EmailID: ".$useremail. "Phone Number: ".$phone. "Message: ".$message;
 //echo '<p id="para">'.$body.'</p>';
 
 // Configuring SMTP server settings
