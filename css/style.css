@@ -849,6 +849,7 @@ ul.social-buttons li a:active {
 }
 */
 
+
 /* Modal - Changes */
 #skills-info p {
     text-align: justify;
@@ -1006,6 +1007,14 @@ footer .footer-below {
   padding: 25px 0;
   background-color: black;
 }
+
+/*  CHANGE -- FOOTER EMAIL*/
+ #footer-email a {
+    font-size: 22px;
+    color: white;
+ }
+/* */
+
 #footer-email p,
 #footer-location p {
     font-size: 22px;
@@ -1040,8 +1049,4 @@ footer .footer-below {
 .btn:active,
 .btn.active {
   outline: none;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
 }
